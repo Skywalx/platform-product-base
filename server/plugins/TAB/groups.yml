@@ -1,0 +1,102 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+founder:
+  tabprefix: "%img_founder% "
+  tagprefix: "%img_founder% "
+game-lead:
+  tabprefix: "%img_game-lead% "
+  tagprefix: "%img_game-lead% "
+junior-developer:
+  tabprefix: "%img_developer-junior% "
+  tagprefix: "%img_developer-junior% "
+medior-developer:
+  tabprefix: "%img_developer-medior% "
+  tagprefix: "%img_developer-medior% "
+senior-developer:
+  tabprefix: "%img_developer-senior% "
+  tagprefix: "%img_developer-senior% "
+lead-developer:
+  tabprefix: "%img_developer-lead% "
+  tagprefix: "%img_developer-lead% "
+junior-builder:
+  tabprefix: "%img_builder-junior% "
+  tagprefix: "%img_builder-junior% "
+medior-builder:
+  tabprefix: "%img_builder-medior% "
+  tagprefix: "%img_builder-medior% "
+senior-builder:
+  tabprefix: "%img_builder-senior% "
+  tagprefix: "%img_builder-senior% "
+lead-builder:
+  tabprefix: "%img_builder-lead% "
+  tagprefix: "%img_builder-lead% "
+content:
+  tabprefix: "%img_content% "
+  tagprefix: "%img_content% "
+lead-content:
+  tabprefix: "%img_content-lead% "
+  tagprefix: "%img_content-lead% "
+hr:
+  tabprefix: "%img_hr% "
+  tagprefix: "%img_hr% "
+lead-hr:
+  tabprefix: "%img_hr-lead% "
+  tagprefix: "%img_hr-lead% "
+junior-infra:
+  tabprefix: "%img_infra-junior% "
+  tagprefix: "%img_infra-junior% "
+medior-infra:
+  tabprefix: "%img_infra-medior% "
+  tagprefix: "%img_infra-medior% "
+senior-infra:
+  tabprefix: "%img_infra-senior% "
+  tagprefix: "%img_infra-senior% "
+lead-infra:
+  tabprefix: "%img_infra-lead% "
+  tagprefix: "%img_infra-lead% "
+junior-moderator:
+  tabprefix: "%img_moderator-junior% "
+  tagprefix: "%img_moderator-junior% "
+medior-moderator:
+  tabprefix: "%img_moderator-medior% "
+  tagprefix: "%img_moderator-medior% "
+senior-moderator:
+  tabprefix: "%img_moderator-senior% "
+  tagprefix: "%img_moderator-senior% "
+lead-staff:
+  tabprefix: "%img_staff-lead% "
+  tagprefix: "%img_staff-lead% "
+media:
+  tabprefix: "%img_media% "
+  tagprefix: "%img_media% "
+lead-pr:
+  tabprefix: "%img_pr-lead% "
+  tagprefix: "%img_pr-lead% "
+legal-and-financial:
+  tabprefix: "%img_legal-and-financial% "
+  tagprefix: "%img_legal-and-financial% "
+lead-legal-and-financial:
+  tabprefix: "%img_legal-and-financial-lead% "
+  tagprefix: "%img_legal-and-financial-lead% "
+
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "&7"
+  tagprefix: "&7"
+  customtabname: "&7%player%"
+  customtagname: "&7%player%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

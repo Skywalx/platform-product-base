@@ -1,0 +1,185 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  header:
+    - <#FFFFFF>&m                                                </#FFFF00>
+    - '&f&l☁ <#09add3>&lSkywalx Network</#03fcf8> &f&l☁'
+    - ''
+  footer:
+    - ''
+    - '&7Visit our website: &f&nwww.skywalx.com'
+    - <#FFFFFF>&m                                                </#FFFF00>
+  disable-condition: '%world%=disabledworld'
+  per-world:
+    world1:
+      header:
+        - an example of world with custom
+      footer:
+        - header/footer and prefix/suffix
+    world2;world3:
+      header:
+        - This is a shared header for
+        - world2 and world3
+  per-server:
+    server1:
+      header:
+        - an example of server with custom header
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+    - GROUPS:owner,admin,mod,helper,builder,vip,default
+    - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+  unlimited-nametag-mode:
+    enabled: false
+    disable-on-boats: true
+    disable-condition: '%world%=disabledworld'
+    dynamic-lines:
+      - abovename
+      - nametag
+      - belowname
+      - another
+    static-lines:
+      myCustomLine: 0.66
+playerlist-objective:
+  enabled: false
+  value: '%ping%'
+  fancy-value: '&7Ping: %ping%'
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  number: '%skywalx-network-level%'
+  text: '&fLevel'
+  fancy-display-players: '&f[&7Lvl &a&l%skywalx-network-level%&f]'
+  fancy-display-default: NPC
+  disable-condition: '%world%=disabledworld'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    scoreboard:
+      title: '&f&l☁ <#09add3>&lSkywalx Network</#03fcf8> &f&l☁'
+      lines:
+        - ''
+        - '&f&lRank %tab_tabprefix%'
+        - ''
+        - '&7> www.skywalx.com'
+        - '&f&lJoin > play.skywalx.com'
+layout:
+  enabled: true
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1000
+  layouts:
+    default:
+      fixed-slots:
+        - '1|&f&lStaff'
+        - '21|&f&lPlayers'
+        - '41|&f&m              '
+        - '61|&f&m              '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+            - 1-20
+        players:
+          slots:
+            - 21-80
+ping-spoof:
+  enabled: false
+  value: 0
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+      - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 1000
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+    - spyserver1
+    - spyserver2
+  server-groups:
+    lobbies:
+      - lobby1
+      - lobby2
+    group2:
+      - server1
+      - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true

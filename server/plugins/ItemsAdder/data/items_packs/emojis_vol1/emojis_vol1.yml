@@ -1,0 +1,243 @@
+info:
+  namespace: "emojis_vol1"
+font_images:
+  angel_emoji:
+    permission: emojis.angel
+    show_in_gui: true
+    path: "font/emoji/angel_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  barf_emoji:
+    permission: emojis.barf
+    show_in_gui: true
+    path: "font/emoji/barf_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  blush_emoji:
+    permission: emojis.blush
+    show_in_gui: true
+    path: "font/emoji/blush_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  broken_heart_emoji:
+    permission: emojis.broken_heart
+    show_in_gui: true
+    path: "font/emoji/broken_heart_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  cool_emoji:
+    permission: emojis.cool
+    show_in_gui: true
+    path: "font/emoji/cool_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  dead_emoji:
+    permission: emojis.dead
+    show_in_gui: true
+    path: "font/emoji/dead_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  embarrassed_emoji:
+    permission: emojis.embarrassed
+    show_in_gui: true
+    path: "font/emoji/embarrassed_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  freezing_emoji:
+    permission: emojis.freezing
+    show_in_gui: true
+    path: "font/emoji/freezing_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  frustrated_emoji:
+    permission: emojis.frustrated
+    show_in_gui: true
+    path: "font/emoji/frustrated_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  gross_emoji:
+    permission: emojis.gross
+    show_in_gui: true
+    path: "font/emoji/gross_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  heart_emoji:
+    permission: emojis.heart
+    show_in_gui: true
+    path: "font/emoji/heart_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  heart_eyes_emoji:
+    permission: emojis.heart_eyes
+    show_in_gui: true
+    path: "font/emoji/heart_eyes_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  laugh_emoji:
+    permission: emojis.laugh
+    show_in_gui: true
+    path: "font/emoji/laugh_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  mask_emoji:
+    permission: emojis.mask
+    show_in_gui: true
+    path: "font/emoji/mask_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  nerdy_emoji:
+    permission: emojis.nerdy
+    show_in_gui: true
+    path: "font/emoji/nerdy_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  pensive_emoji:
+    permission: emojis.pensive
+    show_in_gui: true
+    path: "font/emoji/pensive_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  rage_emoji:
+    permission: emojis.rage
+    show_in_gui: true
+    path: "font/emoji/rage_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  scream_emoji:
+    permission: emojis.scream
+    show_in_gui: true
+    path: "font/emoji/scream_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  sherlock_emoji:
+    permission: emojis.sherlock
+    show_in_gui: true
+    path: "font/emoji/sherlock_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  shhh_emoji:
+    permission: emojis.shhh
+    show_in_gui: true
+    path: "font/emoji/shhh_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  skull_emoji:
+    permission: emojis.skull
+    show_in_gui: true
+    path: "font/emoji/skull_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  sleeping_emoji:
+    permission: emojis.sleeping
+    show_in_gui: true
+    path: "font/emoji/sleeping_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  smile_emoji:
+    permission: emojis.smile
+    show_in_gui: true
+    path: "font/emoji/smile_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  smile_with_tear_emoji:
+    permission: emojis.smile_with_tear
+    show_in_gui: true
+    path: "font/emoji/smile_with_tear_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  sob_emoji:
+    permission: emojis.sob
+    show_in_gui: true
+    path: "font/emoji/sob_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  star_struck_emoji:
+    permission: emojis.star_struck
+    show_in_gui: true
+    path: "font/emoji/star_struck_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  straight_face_emoji:
+    permission: emojis.straight_face
+    show_in_gui: true
+    path: "font/emoji/straight_face_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  thinking_emoji:
+    permission: emojis.thinking
+    show_in_gui: true
+    path: "font/emoji/thinking_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  thumbsdown_emoji:
+    permission: emojis.thumbsdown
+    show_in_gui: true
+    path: "font/emoji/thumbsdown_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  thumbsup_emoji:
+    permission: emojis.thumbsup
+    show_in_gui: true
+    path: "font/emoji/thumbsup_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  tongue_emoji:
+    permission: emojis.tongue
+    show_in_gui: true
+    path: "font/emoji/tongue_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  wink_emoji:
+    permission: emojis.wink
+    show_in_gui: true
+    path: "font/emoji/wink_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  dizzy_emoji:
+    permission: emojis.dizzy
+    show_in_gui: true
+    path: "font/emoji/dizzy_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  eyes_emoji:
+    permission: emojis.eyes
+    show_in_gui: true
+    path: "font/emoji/eyes_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  happy_devil_emoji:
+    permission: emojis.happy_devil
+    show_in_gui: true
+    path: "font/emoji/happy_devil_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  mamma_mia_emoji:
+    permission: emojis.mamma_mia
+    show_in_gui: true
+    path: "font/emoji/mamma_mia_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  ok_emoji:
+    permission: emojis.ok
+    show_in_gui: true
+    path: "font/emoji/ok_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  praying_emoji:
+    permission: emojis.praying
+    show_in_gui: true
+    path: "font/emoji/praying_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  sad_devil_emoji:
+    permission: emojis.sad_devil
+    show_in_gui: true
+    path: "font/emoji/sad_devil_emoji.png"
+    scale_ratio: 12
+    y_position: 9
+  sparkle_emoji:
+    permission: emojis.sparkle
+    show_in_gui: true
+    path: "font/emoji/sparkle_emoji.png"
+    scale_ratio: 12
+    y_position: 9

@@ -1,0 +1,185 @@
+info:
+  namespace: betterranks
+font_images:
+  founder:
+    permission: "betterranks.founder"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "founder.png"
+    scale_ratio: 9
+    y_position: 8
+  game-lead:
+    permission: "betterranks.game_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "game_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  developer-junior:
+    permission: "betterranks.developer_junior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "developer.png"
+    scale_ratio: 9
+    y_position: 8
+  developer-medior:
+    permission: "betterranks.developer_medior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "developer.png"
+    scale_ratio: 9
+    y_position: 8
+  developer-senior:
+    permission: "betterranks.developer_senior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "developer.png"
+    scale_ratio: 9
+    y_position: 8
+  developer-lead:
+    permission: "betterranks.developer_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "developer_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  builder-junior:
+    permission: "betterranks.builder_junior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "builder.png"
+    scale_ratio: 9
+    y_position: 8
+  builder-medior:
+    permission: "betterranks.builder_medior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "builder.png"
+    scale_ratio: 9
+    y_position: 8
+  builder-senior:
+    permission: "betterranks.builder_senior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "builder.png"
+    scale_ratio: 9
+    y_position: 8
+  builder-lead:
+    permission: "betterranks.builder_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "build_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  content:
+    permission: "betterranks.content"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "content.png"
+    scale_ratio: 9
+    y_position: 8
+  content-lead:
+    permission: "betterranks.content_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "content_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  hr:
+    permission: "betterranks.hr"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "hr.png"
+    scale_ratio: 9
+    y_position: 8
+  hr-lead:
+    permission: "betterranks.hr_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "hr_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  infra-junior:
+    permission: "betterranks.infra_junior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "infra.png"
+    scale_ratio: 9
+    y_position: 8
+  infra-medior:
+    permission: "betterranks.infra_medior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "infra.png"
+    scale_ratio: 9
+    y_position: 8
+  infra-senior:
+    permission: "betterranks.infra_senior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "infra.png"
+    scale_ratio: 9
+    y_position: 8
+  infra-lead:
+    permission: "betterranks.infra_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "infra_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  moderator-junior:
+    permission: "betterranks.moderator_junior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "junior_mod.png"
+    scale_ratio: 9
+    y_position: 8
+  moderator-medior:
+    permission: "betterranks.moderator_medior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "mod.png"
+    scale_ratio: 9
+    y_position: 8
+  moderator-senior:
+    permission: "betterranks.moderator_senior"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "senior_mod.png"
+    scale_ratio: 9
+    y_position: 8
+  staff-lead:
+    permission: "betterranks.staff_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "staff_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  media:
+    permission: "betterranks.media"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "media.png"
+    scale_ratio: 9
+    y_position: 8
+  pr-lead:
+    permission: "betterranks.pr_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "pr_lead.png"
+    scale_ratio: 9
+    y_position: 8
+  legal-and-financial:
+    permission: "betterranks.legal_and_financial"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "legal_and_financial.png"
+    scale_ratio: 9
+    y_position: 8
+  legal-and-financial-lead:
+    permission: "betterranks.legal_and_financial_lead"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "legal_and_financial_lead.png"
+    scale_ratio: 9
+    y_position: 8
