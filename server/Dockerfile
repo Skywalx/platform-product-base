@@ -3,6 +3,8 @@ FROM itzg/minecraft-server:java17-alpine
 ENV EULA TRUE
 ENV TYPE CUSTOM
 ENV CUSTOM_SERVER ./purpur-1.17.1-1428.jar
+# Skip runtime downloads - JAR is already baked into the image
+ENV SKIP_SERVER_PATCHING true
 ENV USE_AIKAR_FLAGS true
 ENV JVM_DD_OPTS log4j.configurationFile=log4j-rce-fix.xml
 
