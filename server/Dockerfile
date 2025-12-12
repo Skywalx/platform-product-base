@@ -33,10 +33,10 @@ COPY --chown=1000:1000 --chmod=777 ./ /data
 COPY --chown=1000:1000 --chmod=777 purpur-1.17.1-1428.jar /data/purpur.jar
 
 # Pre-run Paperclip during build to download and patch vanilla JAR
-# This creates the cache so it doesn't need network at runtime
-USER 1000
 WORKDIR /data
 RUN timeout 120 java -jar purpur.jar || true
+RUN rm -f /data/eula.txt /data/server.properties /data/logs/* 2>/dev/null || true
+RUN chown -R 1000:1000 /data
 
 EXPOSE 25565
 EXPOSE 80
